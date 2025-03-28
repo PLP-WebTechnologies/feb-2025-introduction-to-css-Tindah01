@@ -1,0 +1,90 @@
+/* Element Selector */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: beige; /* Removed duplicate */
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(90%); /* Adjusted brightness to keep visibility */
+}
+
+/* ID Selector */
+#main-title {
+    color: #851616;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#main-title1{
+    color: #007BFF;
+    font-size: 30px;
+    margin: 0%;
+    text-align: center;
+
+}
+/* Class Selectors */
+.description {
+    color: #555;
+    font-size: 18px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.styled-image {
+    width: 250px;
+    height: 100px; /* Fixed missing px */
+    border: 5px solid #007BFF; /* Reduced border size */
+    border-radius: 20px; /* Rounded corners */
+    margin: 10px;
+    padding: 10px; /* Reduced excessive padding */
+}
+
+.custom-button {
+    background-color: #007BFF;
+    color: rgb(250, 249, 249);
+    border: 2px solid #0056b3; /* Added solid for visibility */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px; /* Added for better button styling */
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+ul {
+    list-style-type: circle; /* Use square bullets */
+}
+
+ul li {
+    color: #333; /* Custom text color */
+    font-size: 18px; /* Adjust font size */
+}
+/* Container for buttons */
+.top-buttons {
+    position: fixed;  /* Sticks to the top */
+    top: 10px;  /* Small gap from the top */
+    right: 20px;  /* Aligns buttons to the right */
+    display: flex;
+    gap: 10px; /* Adds space between buttons */
+}
+
+/* Style for the smaller buttons */
+.nav-button {
+    background-color: white;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    padding: 5px 10px; /* Smaller size */
+    font-size: 14px; /* Smaller text */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.nav-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
